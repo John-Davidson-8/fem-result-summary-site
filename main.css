@@ -77,7 +77,7 @@ select {
 /* general styling */
 body {
   font-family: "Hanken Grotesk", sans-serif;
-  background: black;
+  background-color: lightgrey;
 }
 main {
   display: flex;
@@ -89,7 +89,7 @@ main {
 }
 .card {
   margin: 3rem 3rem 15rem 3rem;
-  max-width: 23.43rem;
+  max-width: 25rem;
   background-color: hsl(0, 0%, 100%);
 }
 .header {
@@ -98,7 +98,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: hsl(241, 81%, 54%);
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }
@@ -113,7 +113,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: hsla(256, 72%, 46%, 1);
+  /* background: hsla(256, 72%, 46%, 1); */
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
   width: 8.75rem;
   height: 8.75rem;
   margin-bottom: 1.5rem;
@@ -140,9 +145,9 @@ h3 {
   font-size: 1.1rem;
 }
 h2 {
-  font-size: 1.3rem;
-  margin: 1rem;
+  font-size: 1.2rem;
   color: hsl(224, 30%, 27%);
+  margin: 1.5rem 2.5rem;
 }
 ul {
   list-style-type: none;
@@ -152,11 +157,12 @@ ul {
 li {
   display: flex;
   justify-content: space-between;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 1rem;
   color: hsl(0, 100%, 67%);
   font-weight: 400;
   font-size: 1rem;
+  margin: 1.5rem;
 }
 .result-1 {
   background-color: hsla(0, 100%, 67%, 0.1);
@@ -167,4 +173,42 @@ li {
 }
 .percentage {
   color: hsl(241, 100%, 89%);
+}
+.small-flex {
+  display: flex;
+  gap: 1rem;
+}
+.result-2 {
+  background-color: hsl(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+}
+.result-3 {
+  background-color: hsl(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+}
+.result-4 {
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  width: 19.68rem;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+button:hover {
+  background-color: hsl(241, 81%, 54%);
 }
