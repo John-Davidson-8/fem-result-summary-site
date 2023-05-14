@@ -219,7 +219,7 @@ button:hover {
     max-width: 46rem;
     max-height: 32rem;
     border-radius: 2rem;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   .header {
     max-width: 23rem;
