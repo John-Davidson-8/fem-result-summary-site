@@ -88,7 +88,7 @@ main {
   align-items: center;
 }
 .card {
-  margin: 3rem 3rem 15rem 3rem;
+  margin: 3rem 3rem 10rem 3rem;
   max-width: 23.43rem;
   max-height: 50.56rem;
   background-color: hsl(0, 0%, 100%);
@@ -214,6 +214,9 @@ button:hover {
   background-color: hsl(241, 81%, 54%);
 }
 @media screen and (min-width: 62rem) {
+  body {
+    background-color: #ecf2ff;
+  }
   .card {
     display: flex;
     max-width: 46rem;
@@ -221,13 +224,29 @@ button:hover {
     border-radius: 2rem;
     overflow: hidden;
   }
+  .stats {
+    width: 25rem;
+  }
   .header {
     max-width: 23rem;
-    max-height: 32rem;
+    max-height: 34rem;
     border-radius: 2rem;
     overflow: hidden;
   }
-  .button {
-    max-width: 10rem;
+  .circle {
+    height: 11rem;
+    width: 11rem;
+  }
+  .score-info {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .btn {
+    width: 18rem;
+    margin: 1.5rem 2rem 3rem 2rem;
   }
 }
