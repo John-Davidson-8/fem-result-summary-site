@@ -218,7 +218,8 @@ button:hover {
     display: flex;
     max-width: 46rem;
     max-height: 32rem;
-    overflow: hidden;
+    border-radius: 2rem;
+    /* overflow: hidden; */
   }
   .header {
     max-width: 23rem;
@@ -227,6 +228,6 @@ button:hover {
     overflow: hidden;
   }
   .button {
-    max-width: 18rem;
+    max-width: 10rem;
   }
 }
