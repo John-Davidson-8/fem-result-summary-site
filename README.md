@@ -30,7 +30,7 @@ This is a solution to the [Results Summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/small-profile-card-created-using-html-and-css-flexbox-lG302BMx63
+- Solution URL: https://www.frontendmentor.io/solutions/results-summary-component-using-flexbox-o_cZ6MoXvM
 
 - Live Site URL: https://fem-results-summary-site.netlify.app/
 
