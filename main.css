@@ -78,6 +78,7 @@ select {
 body {
   font-family: "Hanken Grotesk", sans-serif;
   background-color: #232323;
+  min-height: 100vh;
 }
 main {
   display: flex;
@@ -88,9 +89,8 @@ main {
   align-items: center;
 }
 .card {
-  margin: 3rem 3rem 10rem 3rem;
+  margin: 10rem 3rem 10rem 3rem;
   max-width: 23.43rem;
-  max-height: 50.56rem;
   background-color: hsl(0, 0%, 100%);
 }
 .header {
@@ -114,7 +114,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: hsla(256, 72%, 46%, 1); */
   background: linear-gradient(
     to bottom,
     hsla(256, 72%, 46%, 1),
@@ -220,7 +219,7 @@ button:hover {
   .card {
     display: flex;
     max-width: 46rem;
-    max-height: 32rem;
+    /* max-height: 32rem; */
     border-radius: 2rem;
     overflow: hidden;
   }
@@ -228,8 +227,6 @@ button:hover {
     width: 25rem;
   }
   .header {
-    max-width: 23rem;
-    max-height: 34rem;
     border-radius: 2rem;
     overflow: hidden;
   }
@@ -248,5 +245,24 @@ button:hover {
   .btn {
     width: 18rem;
     margin: 1.5rem 2rem 3rem 2rem;
+  }
+}
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: lightblue;
+}
+.attribution a {
+  color: lightgray;
+}
+@media screen and (min-width: 62rem) {
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: darkgray;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
   }
 }
